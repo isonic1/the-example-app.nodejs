@@ -23,6 +23,7 @@
     "node": ">=8.9.3"
   },
   "dependencies": {
+    "@loadmill/node-recorder": "^0.3.31",
     "body-parser": "^1.18.2",
     "contentful": "^6.0.0",
     "cookie-parser": "~1.4.3",

@@ -160,4 +160,8 @@ app.use(function (err, request, response, next) {
   response.render('error')
 })
 
+const { expressRecorder } = require('@loadmill/node-recorder');
+
+app.use(expressRecorder({ loadmillCode: 'f53f7d5d-cc5d-45af-a6b5-135de85f0405' }));
+
 module.exports = app
