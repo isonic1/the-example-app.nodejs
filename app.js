@@ -165,10 +165,10 @@ const { expressRecorder } = require('@loadmill/node-recorder');
 //app.use(expressRecorder({ loadmillCode: 'f53f7d5d-cc5d-45af-a6b5-135de85f0405' }));
 
 app.use(expressRecorder({ 
-   loadmillCode: 'f53f7d5d-cc5d-45af-a6b5-135de85f0405',
+   loadmillCode: '225af578-0613-4993-9110-1c98d1b4bef0',
    notSecure: false, 
    cookieExpiration: 10 * 60 * 1000,
-   basePath: 'https://example-app-loadmill.herokuapp.com/'
+   basePath: 'https://example-app-loadmill.herokuapp.com'
 }));
 
 module.exports = app
